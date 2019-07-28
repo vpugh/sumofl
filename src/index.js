@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import PointsContextProvider from './context/PointsContext';
-import SelectTeamContextProvider from './context/SelectedTeamContext';
+import SelectTeamContentProvider from './context/SelectedTeamContext';
 
 ReactDOM.render(
 <PointsContextProvider>
-  <SelectTeamContextProvider>
+  <SelectTeamContentProvider>
     <App />
-  </SelectTeamContextProvider>
+  </SelectTeamContentProvider>
 </PointsContextProvider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

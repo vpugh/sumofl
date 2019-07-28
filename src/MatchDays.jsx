@@ -40,7 +40,6 @@ const MatchDays = ({ day, matches }) => {
       }
       return acc;
     }, []);
-    console.log(fantasyWinners.length);
     return fantasyWinners.length;
   };
 
@@ -52,7 +51,6 @@ const MatchDays = ({ day, matches }) => {
         }
         return acc;
       }, []);
-      console.log(winnerMatches.length);
       dispatch({ type: 'ADD_POINTS', points: winnerMatches.length })
     },
     [matches, day, dispatch, selectedTeam],

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import './App.css';
 import Nagoya from './data/nagoya-july-2019.json';
 import MatchDays from './MatchDays';
@@ -19,6 +19,18 @@ function App() {
   const fantasyPoints = addArray(points);
   const teamAvailable = selectedTeam.length > 0;
 
+  const leagueOpen = () => {
+    const date = new Date().getMonth();
+    // if (date % 2 === 0) {
+    //   return '- League Closed'
+    // }
+    // return '- League Open'
+    return '- League in Testing...'
+  }
+
+  useEffect(() => {
+    document.title = `Sumo Fantasy League ${leagueOpen()}`;
+  })
   const clearTeam = () => {
     dispatch({ type: 'CLEAR_TEAM'});
   }
