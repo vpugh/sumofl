@@ -1,0 +1,72 @@
+// matches
+.match-container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.match {
+  background: #f7f7f7;
+  border: 1px solid #cecece;
+  padding: 20px;
+}
+
+.match-day {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  padding: 6px 0px;
+}
+
+.match-day-highlighted {
+  margin-bottom: 0;
+  background: #cecece;
+  padding: 6px 0;
+}
+
+// fighters
+.fighter-names {
+  padding: 2px 6px;
+}
+.colorkey-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.color-key {
+  padding: 2px 8px;
+}
+.match-winner {
+  background-color: #e9ffe6;
+  // background-color: #c4ddc1;
+  border: 1px solid green;
+  color: green;
+}
+.selected-winner {
+  background-color: #fff0d4;
+  // background-color: #ffd484;
+  border: 1px solid orange;
+  color: orange;
+}
+.selected-loss {
+  background-color: #e8f0ff;
+  // background-color: #bbd3ff;
+  border: 1px solid cornflowerblue;
+  color: cornflowerblue;
+}
+
+// fantasy stuff
+.fantasy {
+  padding: 6px 0;
+  border: 2px solid #ddd;
+  max-width: 50%;
+  margin: 2rem auto 0 auto;
+  &-team {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: block;
+    margin-top: .25rem;
+  }
+  &-points {
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: block;
+    margin-top: .25rem;
+  }
+}
