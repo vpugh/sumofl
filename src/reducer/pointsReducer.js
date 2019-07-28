@@ -1,7 +1,9 @@
 export const pointsReducer = (state, action) => {
   switch(action.type) {
     case 'ADD_POINTS':
-      return [...state, action.points];
+      return state.concat(action.points);
+    case 'REMOVE_POINTS':
+        return [];
     default:
       return state;
   }

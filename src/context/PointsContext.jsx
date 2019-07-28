@@ -4,10 +4,11 @@ import { pointsReducer } from '../reducer/pointsReducer';
 export const PointsContext = createContext();
 
 const PointsContextProvider = (props) => {
-  const [points, dispatch] = useReducer(pointsReducer, []);
+  const [points, pointsDispatch] = useReducer(pointsReducer, []);
+  console.log('Points Context', points);
 
   return (
-    <PointsContext.Provider value={{points, dispatch}}>
+    <PointsContext.Provider value={{points, pointsDispatch}}>
       {props.children}
     </PointsContext.Provider>
   )

@@ -35,9 +35,9 @@ const SelectTeam = () => {
 
   const isButtonEnabled = option1.length > 0 && option2.length > 0 && option3.length > 0 && option4.length > 0 && option5.length > 0;
   return (
-    <form onSubmit={handleSubmission} name="selectTeam" netlify>
+    <form onSubmit={handleSubmission} name="selectTeam">
       <h3>Select Your Team</h3>
-      <select name="yokozuna-ozeki" id="option1" onChange={setState} defaultValue="">
+      <select name="yokozuna-ozeki" id="option1" onChange={setState} defaultValue={option1}>
         <option value="" disabled>Select Yokozuna/Ozeki</option>
         <option value="Kakuryu">Kakuryu - Yokozuna</option>
         <option value="Hakuho">Hakuho - Yokozuna</option>
@@ -46,14 +46,14 @@ const SelectTeam = () => {
         <option value="Tochinoshin">Tochinoshin - Ozeki</option>
         <option value="Takakeisho">Takakeisho - Ozeki</option>
       </select>
-      <select name="sekiwake-komusubi" id="option2" onChange={setState} defaultValue="">
+      <select name="sekiwake-komusubi" id="option2" onChange={setState} defaultValue={option2}>
         <option value="" disabled>Select Sekiwake/Komusubi</option>
         <option value="Mitakeumi">Mitakeumi - Sekiwake</option>
         <option value="Tamawashi">Tamawashi - Sekiwake</option>
         <option value="Abi">Abi - Komosubi</option>
         <option value="Ryuden">Ryuden - Komosubi</option>
       </select>
-      <select name="upper-maegashira" id="option3" onChange={setState} defaultValue="">
+      <select name="upper-maegashira" id="option3" onChange={setState} defaultValue={option3}>
         <option value="" disabled>Select Upper Maegashira</option>
         <option value="Asanoyama">Asanoyama - M1</option>
         <option value="Hokutofuji">Hokutofuji - M1</option>
@@ -66,7 +66,7 @@ const SelectTeam = () => {
         <option value="Kotoshogiku">Kotoshogiku - M5</option>
         <option value="Takarafuji">Takarafuji - M5</option>
       </select>
-      <select name="middle-maegashira" id="option4" onChange={setState} defaultValue="">
+      <select name="middle-maegashira" id="option4" onChange={setState} defaultValue={option4}>
         <option value="" disabled>Select Middle Maegashira</option>
         <option value="Chiyotairyu">Chiyotairyu - M6</option>
         <option value="Shimanoumi">Shimanoumi - M6</option>
@@ -79,7 +79,7 @@ const SelectTeam = () => {
         <option value="Kotoeko">Kotoeko - M10</option>
         <option value="Takagenji">Takagenji - M10</option>
       </select>
-      <select name="lower-maegashira" id="option5" onChange={setState} defaultValue="">
+      <select name="lower-maegashira" id="option5" onChange={setState} defaultValue={option5}>
         <option value="" disabled>Select Lower Maegashira</option>
         <option value="Yoshikaze">Yoshikaze - M11</option>
         <option value="Nishikigi">Nishikigi - M11</option>

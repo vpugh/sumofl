@@ -10,7 +10,7 @@ const generateReadableDay = day => {
 
 const MatchDays = ({ day, matches }) => {
   const [matchOpen, setMatchOpen] = useState(false);
-  const { dispatch } = useContext(PointsContext);
+  const { pointsDispatch } = useContext(PointsContext);
   const { selectedTeam } = useContext(SelectTeamContext);
   
   const handleVisibility = () => {
@@ -51,9 +51,9 @@ const MatchDays = ({ day, matches }) => {
         }
         return acc;
       }, []);
-      dispatch({ type: 'ADD_POINTS', points: winnerMatches.length })
+      pointsDispatch({ type: 'ADD_POINTS', points: winnerMatches.length })
     },
-    [matches, day, dispatch, selectedTeam],
+    [matches, day, pointsDispatch, selectedTeam],
   );
 
   useEffect(() => {

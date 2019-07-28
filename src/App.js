@@ -14,18 +14,21 @@ const addArray = arr => {
 }
 
 function App() {
-  const { points } = useContext(PointsContext);
+  const { points, pointsDispatch } = useContext(PointsContext);
   const { selectedTeam, dispatch } = useContext(SelectTeamContext);
   const fantasyPoints = addArray(points);
   const teamAvailable = selectedTeam.length > 0;
 
   const leagueOpen = () => {
     const date = new Date().getMonth();
-    // if (date % 2 === 0) {
-    //   return '- League Closed'
-    // }
-    // return '- League Open'
-    return '- League in Testing...'
+    const test = true;
+    if (test) {
+      return '- League in Testing...';
+    }
+    if (date % 2 === 0) {
+      return '- League Closed'
+    }
+    return '- League Open'
   }
 
   useEffect(() => {
@@ -33,6 +36,7 @@ function App() {
   })
   const clearTeam = () => {
     dispatch({ type: 'CLEAR_TEAM'});
+    pointsDispatch({ type: 'REMOVE_POINTS' })
   }
 
   return (
