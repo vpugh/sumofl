@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect, useCallback } from 'react';
-import FantasyTeam from './data/fantasy-team.json';
 import { PointsContext } from './context/PointsContext';
+import { SelectTeamContext } from './context/SelectedTeamContext';
 
 const generateReadableDay = day => {
   const dayName = day.match(/.{3}/g);
@@ -8,51 +8,54 @@ const generateReadableDay = day => {
   return `${dayName} ${number}`;
 }
 
-const highlightMatchWinner = (fighter, winner) => {
-  if (fighter === winner) {
-    return (
-      <span className={`fighter-names ${FantasyTeam["fantasy-team"].includes(winner) ? 'selected-winner' : 'match-winner'} `}>
-        {fighter}
-      </span>
-    );
-  }
-  return (
-    <span className={`fighter-names ${FantasyTeam["fantasy-team"].includes(fighter) ? 'selected-loss' : ''}`}>
-      {fighter}
-    </span>
-  );
-};
-
 const MatchDays = ({ day, matches }) => {
   const [matchOpen, setMatchOpen] = useState(false);
   const { dispatch } = useContext(PointsContext);
+  const { selectedTeam } = useContext(SelectTeamContext);
   
   const handleVisibility = () => {
     setMatchOpen(!matchOpen);
   }
 
+  const highlightMatchWinner = (fighter, winner) => {
+    if (fighter === winner) {
+      return (
+        <span className={`fighter-names ${selectedTeam.includes(winner) ? 'selected-winner' : 'match-winner'} `}>
+          {fighter}
+        </span>
+      );
+    }
+    return (
+      <span className={`fighter-names ${selectedTeam.includes(fighter) ? 'selected-loss' : ''}`}>
+        {fighter}
+      </span>
+    );
+  };
+
   const dailyFantasyPoints = () => {
     const currentDay = matches[day];
     const fantasyWinners = currentDay.reduce((acc, match) => {
-      if (FantasyTeam["fantasy-team"].includes(match.winner)) {
+      if (selectedTeam.includes(match.winner)) {
         acc.push(match.winner);
       }
       return acc;
     }, []);
+    console.log(fantasyWinners.length);
     return fantasyWinners.length;
   };
 
   const returnWinners = useCallback(
     () => {
       const winnerMatches = matches[day].reduce((acc, match) => {
-        if (FantasyTeam["fantasy-team"].includes(match.winner)) {
+        if (selectedTeam.includes(match.winner)) {
           acc.push(match.winner);
         }
         return acc;
       }, []);
+      console.log(winnerMatches.length);
       dispatch({ type: 'ADD_POINTS', points: winnerMatches.length })
     },
-    [matches, day, dispatch],
+    [matches, day, dispatch, selectedTeam],
   );
 
   useEffect(() => {

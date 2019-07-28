@@ -1,10 +1,11 @@
 import React, { useContext } from 'react';
 import './App.css';
 import Nagoya from './data/nagoya-july-2019.json';
-import FantasyTeam from './data/fantasy-team.json';
 import MatchDays from './MatchDays';
 import { PointsContext } from './context/PointsContext';
+import { SelectTeamContext } from './context/SelectedTeamContext';
 import './css/matches.scss';
+import SelectTeam from './css/SelectTeam';
 
 const addArray = arr => {
   if (arr.length > 0) {
@@ -14,7 +15,13 @@ const addArray = arr => {
 
 function App() {
   const { points } = useContext(PointsContext);
+  const { selectedTeam, dispatch } = useContext(SelectTeamContext);
   const fantasyPoints = addArray(points);
+  const teamAvailable = selectedTeam.length > 0;
+
+  const clearTeam = () => {
+    dispatch({ type: 'CLEAR_TEAM'});
+  }
 
   return (
     <div className="App">
@@ -29,20 +36,25 @@ function App() {
         </div>
       </div>
       <div className="fantasy">
-        <p>
-          Fantasy Team: <br />
-          <span className="fantasy-team">
-            {FantasyTeam["fantasy-team"].join(', ')}
-          </span>
-        </p>
-        <p>
-          Total Points: <br />
-          <span className="fantasy-points">
-            {fantasyPoints}
-          </span>
-        </p>
+        {teamAvailable && !selectedTeam.includes("") ? (
+          <>
+            <p>
+              Fantasy Team: <br />
+              <span className="fantasy-team">
+                {selectedTeam.join(', ')}
+              </span>
+            </p>
+            <p>
+              Total Points: <br />
+              <span className="fantasy-points">
+                {fantasyPoints}
+              </span>
+            </p>
+            <button onClick={clearTeam}>Clear Team</button>
+          </>
+        ) : <SelectTeam />}
       </div>
-      {Object.keys(Nagoya.matches).map(day => (
+      {teamAvailable && Object.keys(Nagoya.matches).map(day => (
         <MatchDays key={day} day={day} matches={Nagoya.matches} />
       ))}
       </div>
