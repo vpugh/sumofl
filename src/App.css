@@ -7,6 +7,24 @@
   margin: 0 auto;
 }
 
+.button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #ddd;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
 button[disabled] {
   background: grey !important;
+}
+
+.fullwidth-button {
+  width: 80%;
+  margin: 20px auto 10px auto;
+  padding: 10px 0;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
 }

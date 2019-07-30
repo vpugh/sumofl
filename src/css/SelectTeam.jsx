@@ -35,7 +35,7 @@ const SelectTeam = () => {
 
   const isButtonEnabled = option1.length > 0 && option2.length > 0 && option3.length > 0 && option4.length > 0 && option5.length > 0;
   return (
-    <form onSubmit={handleSubmission} name="selectTeam">
+    <form onSubmit={handleSubmission} name="selectTeam" className="selection-container">
       <h3>Select Your Team</h3>
       <select name="yokozuna-ozeki" id="option1" onChange={setState} defaultValue={option1}>
         <option value="" disabled>Select Yokozuna/Ozeki</option>
@@ -94,7 +94,7 @@ const SelectTeam = () => {
         <option value="Kotoyuki">Kotoyuki - M16</option>
         <option value="Terutsuyoshi">Terutsuyoshi - M16</option>
       </select>
-      <button disabled={!isButtonEnabled} style={{ display: 'block', width: '80%', margin: '20px auto 10px auto', padding: '10px 0', background: 'green', color: 'white', fontWeight: 'bold', fontSize: '1.3rem' }} type="submit">Pick Team</button>
+      <button className="button fullwidth-button" disabled={!isButtonEnabled} type="submit">Pick Team</button>
     </form>
   );
 };

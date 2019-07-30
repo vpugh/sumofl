@@ -1,0 +1,66 @@
+{
+  "2019": {
+    "New Year": {
+      "start": "January 13",
+      "end": "January 27",
+      "location": "Tokyo"
+    },
+    "Spring": {
+      "start": "March 10",
+      "end": "March 24",
+      "location": "Osaka"
+    },
+    "Summer": {
+      "start": "May 12",
+      "end": "May 26",
+      "location": "Tokyo"
+    },
+    "Nagoya": {
+      "start": "July 7",
+      "end": "July 21",
+      "location": "Nagoya"
+    },
+    "Autumn": {
+      "start": "September 8",
+      "end": "September 22",
+      "location": "Tokyo"
+    },
+    "Kyushu": {
+      "start": "November 10",
+      "end": "November 24",
+      "location": "Fukuoka"
+    }
+  },
+  "2020": {
+    "New Year": {
+      "start": "Early January",
+      "end": "Late January",
+      "location": "Tokyo"
+    },
+    "Spring": {
+      "start": "Early March",
+      "end": "Late March",
+      "location": "Osaka"
+    },
+    "Summer": {
+      "start": "Early May",
+      "end": "Late May",
+      "location": "Tokyo"
+    },
+    "Nagoya": {
+      "start": "Early July",
+      "end": "Late July",
+      "location": "Nagoya"
+    },
+    "Autumn": {
+      "start": "Early September",
+      "end": "Late September",
+      "location": "Tokyo"
+    },
+    "Kyushu": {
+      "start": "Early November",
+      "end": "Late November",
+      "location": "Fukuoka"
+    }
+  }
+}

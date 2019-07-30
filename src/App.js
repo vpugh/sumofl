@@ -1,23 +1,37 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Nagoya from './data/nagoya-july-2019.json';
-import MatchDays from './MatchDays';
-import { PointsContext } from './context/PointsContext';
-import { SelectTeamContext } from './context/SelectedTeamContext';
 import './css/matches.scss';
-import SelectTeam from './css/SelectTeam';
-
-const addArray = arr => {
-  if (arr.length > 0) {
-    return arr.reduce((a, b) => a + b, 0);
-  }
-}
+import FantasyGameContainer from './FantasyGame';
+import ShowBashoSchedule from './ShowBashoSchedule';
 
 function App() {
-  const { points, pointsDispatch } = useContext(PointsContext);
-  const { selectedTeam, dispatch } = useContext(SelectTeamContext);
-  const fantasyPoints = addArray(points);
-  const teamAvailable = selectedTeam.length > 0;
+  const [currentBasho, setCurrentBasho] = useState('');
+
+  const convertJapanTime = () => {
+    const offset = +9;
+    const d = new Date();
+    const utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+    const nd = new Date(utc + (3600000*offset));
+    // console.log(nd);
+  }
+
+  const showSelectedBasho = bashoName => {
+    // TODO replace with API calling selected name from database;
+    switch(bashoName) {
+      case 'Nagoya':
+        setCurrentBasho(Nagoya);
+        return;
+      default:
+        setCurrentBasho('');
+        return;
+    }
+  }
+
+  const pickBasho = basho => {
+    console.log(basho);
+    showSelectedBasho(basho)
+  }
 
   const leagueOpen = () => {
     const date = new Date().getMonth();
@@ -33,47 +47,21 @@ function App() {
 
   useEffect(() => {
     document.title = `Sumo Fantasy League ${leagueOpen()}`;
-  })
-  const clearTeam = () => {
-    dispatch({ type: 'CLEAR_TEAM'});
-    pointsDispatch({ type: 'REMOVE_POINTS' })
-  }
+  });
+
+  const currentYear = new Date().getFullYear();
+  convertJapanTime();
 
   return (
     <div className="App">
-      <h1>{Nagoya.name} - {Nagoya.date}</h1>
-      <div className="container">
-      <div style={{ maxWidth: '70%', margin: '0 auto' }}>
-        <div className="colorkey-container">
-          <p style={{ margin: '0' }}>Color Key</p>
-          <span className="selected-winner color-key">Selected Winner</span>
-          <span className="selected-loss color-key">Selected Loss</span>
-          <span className="match-winner color-key">Non-Selected Winner</span>
-        </div>
+      <div>
+        <ShowBashoSchedule selectBasho={pickBasho} title="Old Bashos" bashoType="old" currentYear={currentYear} />
+        <ShowBashoSchedule selectBasho={pickBasho} title="Upcoming Bashos" bashoType="upcoming" currentYear={currentYear} />
       </div>
-      <div className="fantasy">
-        {teamAvailable && !selectedTeam.includes("") ? (
-          <>
-            <p>
-              Fantasy Team: <br />
-              <span className="fantasy-team">
-                {selectedTeam.join(', ')}
-              </span>
-            </p>
-            <p>
-              Total Points: <br />
-              <span className="fantasy-points">
-                {fantasyPoints}
-              </span>
-            </p>
-            <button onClick={clearTeam}>Clear Team</button>
-          </>
-        ) : <SelectTeam />}
-      </div>
-      {teamAvailable && Object.keys(Nagoya.matches).map(day => (
-        <MatchDays key={day} day={day} matches={Nagoya.matches} />
-      ))}
-      </div>
+      {currentBasho && (
+        <FantasyGameContainer basho={currentBasho} />
+      )}
+      {!currentBasho && <p>Not Ready</p>}
     </div>
   );
 }

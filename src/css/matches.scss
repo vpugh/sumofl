@@ -1,7 +1,13 @@
 // matches
 .match-container {
-  max-width: 50%;
   margin: 0 auto;
+  @media (max-width: 767px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media (min-width: 768px) {
+    max-width: 50%;
+  }
 }
 .match {
   background: #f7f7f7;
@@ -19,6 +25,19 @@
   margin-bottom: 0;
   background: #cecece;
   padding: 6px 0;
+}
+
+// selection
+.selection-container {
+  select {
+    width: 80%;
+    margin: 0 auto;
+    height: 2rem;
+    font-size: 0.9rem;
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
 }
 
 // fighters
@@ -53,10 +72,20 @@
 
 // fantasy stuff
 .fantasy {
-  padding: 6px 0;
-  border: 2px solid #ddd;
-  max-width: 50%;
+  padding: 6px 0 18px 0;
+  border: 1px solid #ddd;
   margin: 2rem auto 0 auto;
+  box-shadow: 2px 3px 6px 0px rgba(0,0,0,.1);
+  @media (max-width: 767px) {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media (min-width: 768px) {
+    max-width: 60%;
+  }
   &-team {
     font-size: 1.3rem;
     font-weight: bold;
