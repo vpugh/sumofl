@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import BashoSchedule from './data/basho-schedule-2019.json';
+import BashoSchedule from '../data/basho-schedule-2019.json';
 
 const ShowBashoSchedule = ({
   title,

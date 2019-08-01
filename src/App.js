@@ -4,8 +4,8 @@ import Natsu from './data/natsu-may-2019.json';
 import Nagoya from './data/nagoya-july-2019.json';
 import Aki from './data/aki-september-2019.json';
 import './css/matches.scss';
-import FantasyGameContainer from './FantasyGame';
-import ShowBashoSchedule from './ShowBashoSchedule';
+import FantasyGameContainer from './components/FantasyGame';
+import ShowBashoSchedule from './components/ShowBashoSchedule';
 
 function App() {
   const [currentBasho, setCurrentBasho] = useState('');

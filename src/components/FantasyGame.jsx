@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import './App.css';
+import '../App.css';
 import MatchDays from './MatchDays';
-import { PointsContext } from './context/PointsContext';
-import { SelectTeamContext } from './context/SelectedTeamContext';
-import './css/matches.scss';
-import SelectTeam from './css/SelectTeam';
+import { PointsContext } from '../context/PointsContext';
+import { SelectTeamContext } from '../context/SelectedTeamContext';
+import '../css/matches.scss';
+import SelectTeam from '../components/SelectTeam';
 import ViewTeam from './ViewTeam';
 
 const addArray = arr => {

@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect, useCallback } from 'react';
-import { PointsContext } from './context/PointsContext';
-import { SelectTeamContext } from './context/SelectedTeamContext';
+import { PointsContext } from '../context/PointsContext';
+import { SelectTeamContext } from '../context/SelectedTeamContext';
 
 const generateReadableDay = day => {
   const dayName = day.match(/.{3}/g);
