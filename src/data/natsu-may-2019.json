@@ -1,0 +1,1296 @@
+{
+  "date": "May 2019",
+  "name": "Natsu Basho",
+  "matches": {
+    "day1": [
+      {
+        "fighters": ["Chiyoshoma", "Toyonoshima"],
+        "winner": "Toyonoshima"
+      },
+      {
+        "fighters": ["Daishoho", "Ishiura"],
+        "winner": "Daishoho"
+      },
+      {
+        "fighters": ["Terutsuyoshi", "Kotoeko"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Tokushoryu", "Enho"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Chiyomaru", "Sadanoumi"],
+        "winner": "Chiyomaru"
+      },
+      {
+        "fighters": ["Shimanoumi", "Yago"],
+        "winner": "Yago"
+      },
+      {
+        "fighters": ["Shohozan", "Tochiozan"],
+        "winner": "Shohozan"
+      },
+      {
+        "fighters": ["Kagayaki", "Onosho"],
+        "winner": "Onosho"
+      },
+      {
+        "fighters": ["Nishikigi", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Kaisei", "Asanoyama"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Shodai", "Meisei"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Takarafuji", "Yoshikaze"],
+        "winner": "Takarafuji"
+      },
+      {
+        "fighters": ["Myogiryu", "Ryuden"],
+        "winner": "Ryuden"
+      },
+      {
+        "fighters": ["Okinoumi", "Abi"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Aoiyama", "Tamawashi"],
+        "winner": "Aoiyama"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Tochinoshin"],
+        "winner": "Tochinoshin"
+      },
+      {
+        "fighters": ["Ichinojo", "Daieisho"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Takakeisho", "Endo"],
+        "winner": "Takakeisho"
+      },
+      {
+        "fighters": ["Takayasu", "Kotoshogiku"],
+        "winner": "Kotoshogiku"
+      },
+      {
+        "fighters": ["Goeido", "Hokutofuji"],
+        "winner": "Goeido"
+      },
+      {
+        "fighters": ["Kakuryu", "Mitakeumi"],
+        "winner": "Kakuryu"
+      }
+    ],
+    "day2": [
+      {
+        "fighters": ["Daishoho", "Chiyoshoma"],
+        "winner": "Chiyoshoma"
+      },
+      {
+        "fighters": ["Ikioi", "Ishiura"],
+        "winner": "Ishiura"
+      },
+      {
+        "fighters": ["Tokushoryu", "Terutsuyoshi"],
+        "winner": "Tokushoryu"
+      },
+      {
+        "fighters": ["Kotoeko", "Enho"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Shimanoumi", "Chiyomaru"],
+        "winner": "Chiyomaru"
+      },
+      {
+        "fighters": ["Sadanoumi", "Yago"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Kagayaki", "Shohozan"],
+        "winner": "Shohozan"
+      },
+      {
+        "fighters": ["Tochiozan", "Onosho"],
+        "winner": "Onosho"
+      },
+      {
+        "fighters": ["Kaisei", "Nishikigi"],
+        "winner": "Nishikigi"
+      },
+      {
+        "fighters": ["Tomokaze", "Asanoyama"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Takarafuji", "Shodai"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Meisei", "Yoshikaze"],
+        "winner": "Yoshikaze"
+      },
+      {
+        "fighters": ["Okinoumi", "Myogiryu"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Ryuden", "Abi"],
+        "winner": "Ryuden"
+      },
+      {
+        "fighters": ["Tamawashi", "Mitakeumi"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Ichinojo", "Chiyotairyu"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Daieisho", "Tochinoshin"],
+        "winner": "Tochinoshin"
+      },
+      {
+        "fighters": ["Goeido", "Aoiyama"],
+        "winner": "Goeido"
+      },
+      {
+        "fighters": ["Takakeisho", "Kotoshogiku"],
+        "winner": "Takakeisho"
+      },
+      {
+        "fighters": ["Endo", "Takayasu"],
+        "winner": "Takayasu"
+      },
+      {
+        "fighters": ["Hokutofuji", "Kakuryu"],
+        "winner": "Kakuryu"
+      }
+    ],
+    "day3":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day4":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day5":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day6":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day7":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day8":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day9":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day10":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day11":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day12":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day13":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day14":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ],
+    "day15":  [
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      },
+      {
+        "fighters": ["", ""],
+        "winner": ""
+      }
+    ]
+  }
+}

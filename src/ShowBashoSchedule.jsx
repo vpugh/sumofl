@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BashoSchedule from './data/basho-schedule-2019.json';
 
 const ShowBashoSchedule = ({
@@ -8,8 +8,15 @@ const ShowBashoSchedule = ({
   selectBasho,
 }) => {
 
+  const [isVisible, setIsVisible] = useState(bashoType === 'old' ? false : true);
+
   const bashoSchedule = () => {
     return Object.keys(BashoSchedule[currentYear]);
+  }
+
+  const handleVisibility = e => {
+    e.preventDefault();
+    setIsVisible(!isVisible);
   }
 
   const allBasho = type => {
@@ -27,16 +34,16 @@ const ShowBashoSchedule = ({
     }, []);
   }
 
-  // color: 'grey', textDecoration: 'line-through'
-
   return (
     <>
-      <h2>{title}</h2>
-      {allBasho(bashoType).map(basho => (
-        <React.Fragment key={basho}>
-        <h3 onClick={() => selectBasho(basho)} style={{ marginBottom: '.25rem', marginTop: '.5rem' }}>{basho} - {BashoSchedule[currentYear][basho].start} {BashoSchedule[currentYear][basho].location}</h3>
-      </React.Fragment>
-      ))}
+      <h2 onClick={handleVisibility}>{title}</h2>
+      {isVisible && (
+        allBasho(bashoType).reverse().map(basho => (
+          <React.Fragment key={basho}>
+            <h3 onClick={() => selectBasho(basho)} className={`${bashoType === 'old' && 'old-basho'}`} style={{ marginBottom: '.25rem', marginTop: '.5rem' }}>{basho} - {BashoSchedule[currentYear][basho].start} {BashoSchedule[currentYear][basho].location}</h3>
+          </React.Fragment>
+        ))
+      )}
     </>
   );
 };

@@ -1,0 +1,1188 @@
+{
+  "date": "September 2019",
+  "name": "Aki Basho",
+  "matches": {
+    "day1": [
+      {
+        "fighters": ["Kotoyuki", "Terutsuyoshi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Yago", "Kaisei"],
+        "winner": "Kaisei"
+      },
+      {
+        "fighters": ["Toyonoshima", "Enho"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Chiyomaru", "Sadanoumi"],
+        "winner": "Chiyomaru"
+      },
+      {
+        "fighters": ["Tochiozan", "Kagayaki"],
+        "winner": "Kagayaki"
+      },
+      {
+        "fighters": ["Nishikigi", "Takagenji"],
+        "winner": "Takagenji"
+      },
+      {
+        "fighters": ["Kotoeko", "Daishoho"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Shohozan", "Okinoumi"],
+        "winner": "Shohozan"
+      },
+      {
+        "fighters": ["Onosho", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Myogiryu", "Shimanoumi"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Takarafuji"],
+        "winner": "Chiyotairyu"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Ichinojo"],
+        "winner": "Kotoshogiku"
+      },
+      {
+        "fighters": ["Meisei", "Daieisho"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Shodai", "Tamawashi"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Mitakeumi", "Aoiyama"],
+        "winner": "Aoiyama"
+      },
+      {
+        "fighters": ["Tochinoshin", "Endo"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Takayasu", "Hokutofuji"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Goeido", "Asanoyama"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Hakuho", "Abi"],
+        "winner": "Hakuho"
+      },
+      {
+        "fighters": ["Kakuryu", "Ryuden"],
+        "winner": "Kakuryu"
+      }
+    ],
+    "day2": [
+      {
+        "fighters": ["Yago", "Kotoyuki"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Toyonoshima", "Terutsuyoshi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Kaisei", "Enho"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Tochiozan", "Chiyomaru"],
+        "winner": "Tochiozan"
+      },
+      {
+        "fighters": ["Sadanoumi", "Kagayaki"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Kotoeko", "Nishikigi"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Takagenji", "Daishoho"],
+        "winner": "Takagenji"
+      },
+      {
+        "fighters": ["Onosho", "Shohozan"],
+        "winner": "Onosho"
+      },
+      {
+        "fighters": ["Okinoumi", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Myogiryu"],
+        "winner": "Chiyotairyu"
+      },
+      {
+        "fighters": ["Shimanoumi", "Takarafuji"],
+        "winner": "Takarafuji"
+      },
+      {
+        "fighters": ["Meisei", "Kotoshogiku"],
+        "winner": "Kotoshogiku"
+      },
+      {
+        "fighters": ["Ichinojo", "Daieisho"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Mitakeumi", "Endo"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Tamawashi", "Aoiyama"],
+        "winner": "Tamawashi"
+      },
+      {
+        "fighters": ["Goeido", "Abi"],
+        "winner": "Goeido"
+      },
+      {
+        "fighters": ["Tochinoshin", "Shodai"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Takayasu", "Ryuden"],
+        "winner": "Ryuden"
+      },
+      {
+        "fighters": ["Kakuryu", "Hokutofuji"],
+        "winner": "Kakuryu"
+      },
+      {
+        "fighters": ["Hakuho", "Asanoyama"],
+        "winner": "Hakuho"
+      }
+    ],
+    "day3": [
+      {
+        "fighters": ["Terutsuyoshi", "Kaisei"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Kotoyuki", "Enho"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Toyonoshima", "Yago"],
+        "winner": "Yago"
+      },
+      {
+        "fighters": ["Chiyomaru", "Kagayaki"],
+        "winner": "Kagayaki"
+      },
+      {
+        "fighters": ["Tochiozan", "Sadanoumi"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Kotoeko", "Takagenji"],
+        "winner": "Takagenji"
+      },
+      {
+        "fighters": ["Nishikigi", "Daishoho"],
+        "winner": "Nishikigi"
+      },
+      {
+        "fighters": ["Onosho", "Okinoumi"],
+        "winner": "Okinoumi"
+      },
+      {
+        "fighters": ["Shohozan", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Shimanoumi"],
+        "winner": "Shimanoumi"
+      },
+      {
+        "fighters": ["Myogiryu", "Takarafuji"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Meisei", "Ichinojo"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Daieisho"],
+        "winner": "Kotoshogiku"
+      },
+      {
+        "fighters": ["Abi", "Shodai"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Mitakeumi", "Tamawashi"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Takayasu", "Endo"],
+        "winner": "Takayasu"
+      },
+      {
+        "fighters": ["Goeido", "Aoiyama"],
+        "winner": "Goeido"
+      },
+      {
+        "fighters": ["Tochinoshin", "Ryuden"],
+        "winner": "Ryuden"
+      },
+      {
+        "fighters": ["Hakuho", "Hokutofuji"],
+        "winner": "Hakuho"
+      },
+      {
+        "fighters": ["Kakuryu", "Asanoyama"],
+        "winner": "Kakuryu"
+      }
+    ],
+    "day4": [
+      {
+        "fighters": ["Toyonoshima", "Kaisei"],
+        "winner": "Toyonoshima"
+      },
+      {
+        "fighters": ["Terutsuyoshi", "Enho"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Chiyomaru", "Yago"],
+        "winner": "Yago"
+      },
+      {
+        "fighters": ["Kotoyuki", "Sadanoumi"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Kagayaki", "Nishikigi"],
+        "winner": "Nishikigi"
+      },
+      {
+        "fighters": ["Tochiozan", "Takagenji"],
+        "winner": "Tochiozan"
+      },
+      {
+        "fighters": ["Shohozan", "Kotoeko"],
+        "winner": "Shohozan"
+      },
+      {
+        "fighters": ["Daishoho", "Okinoumi"],
+        "winner": "Daishoho"
+      },
+      {
+        "fighters": ["Myogiryu", "Onosho"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Tomokaze", "Shimanoumi"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Chiyotairyu"],
+        "winner": "Chiyotairyu"
+      },
+      {
+        "fighters": ["Takarafuji", "Ichinojo"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Aoiyama", "Meisei"],
+        "winner": "Aoiyama"
+      },
+      {
+        "fighters": ["Mitakeumi", "Shodai"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Endo", "Tamawashi"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Daieisho", "Tochinoshin"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Asanoyama", "Takayasu"],
+        "winner": "Takayasu"
+      },
+      {
+        "fighters": ["Goeido", "Hokutofuji"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Kakuryu", "Abi"],
+        "winner": "Kakuryu"
+      },
+      {
+        "fighters": ["Ryuden", "Hakuho"],
+        "winner": "Hakuho"
+      }
+    ],
+    "day5": [
+      {
+        "fighters": ["Yago", "Terutsuyoshi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Toyonoshima", "Kotoyuki"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Chiyomaru", "Kaisei"],
+        "winner": "Chiyomaru"
+      },
+      {
+        "fighters": ["Tochiozan", "Enho"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Sadanoumi", "Nishikigi"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Kagayaki", "Takagenji"],
+        "winner": "Takagenji"
+      },
+      {
+        "fighters": ["Shohozan", "Daishoho"],
+        "winner": "Daishoho"
+      },
+      {
+        "fighters": ["Kotoeko", "Okinoumi"],
+        "winner": "Okinoumi"
+      },
+      {
+        "fighters": ["Myogiryu", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Onosho", "Shimanoumi"],
+        "winner": "Shimanoumi"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Takarafuji"],
+        "winner": "Kotoshogiku"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Ichinojo"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Shodai", "Meisei"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Daieisho", "Tamawashi"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Mitakeumi", "Hokutofuji"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Goeido", "Ryuden"],
+        "winner": "Goeido"
+      },
+      {
+        "fighters": ["Asanoyama", "Tochinoshin"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Abi", "Takayasu"],
+        "winner": "Takayasu"
+      },
+      {
+        "fighters": ["Endo", "Hakuho"],
+        "winner": "Hakuho"
+      },
+      {
+        "fighters": ["Aoiyama", "Kakuryu"],
+        "winner": "Kakuryu"
+      }
+    ],
+    "day6": [
+      {
+        "fighters": ["Kotoyuki", "Kaisei"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Yago", "Enho"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Chiyomaru", "Toyonoshima"],
+        "winner": "Chiyomaru"
+      },
+      {
+        "fighters": ["Terutsuyoshi", "Sadanoumi"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Kotoeko", "Kagayaki"],
+        "winner": "Kagayaki"
+      },
+      {
+        "fighters": ["Shohozan", "Nishikigi"],
+        "winner": "Shohozan"
+      },
+      {
+        "fighters": ["Tochiozan", "Daishoho"],
+        "winner": "Daishoho"
+      },
+      {
+        "fighters": ["Takagenji", "Okinoumi"],
+        "winner": "Okinoumi"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Onosho"],
+        "winner": "Onosho"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Myogiryu"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Tomokaze", "Takarafuji"],
+        "winner": "Takarafuji"
+      },
+      {
+        "fighters": ["Shimanoumi", "Ichinojo"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Meisei", "Hokutofuji"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Mitakeumi", "Ryuden"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Asanoyama", "Tamawashi"],
+        "winner": "Tamawashi"
+      },
+      {
+        "fighters": ["Daieisho", "Takayasu"],
+        "winner": "Takayasu"
+      },
+      {
+        "fighters": ["Goeido", "Shodai"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Abi", "Tochinoshin"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Kakuryu", "Endo"],
+        "winner": "Kakuryu"
+      },
+      {
+        "fighters": ["Aoiyama", "Hakuho"],
+        "winner": "Hakuho"
+      }
+    ],
+    "day7": [
+      {
+        "fighters": ["Tokushoryu", "Terutsuyoshi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Toyonoshima", "Sadanoumi"],
+        "winner": "Toyonoshima"
+      },
+      {
+        "fighters": ["Chiyomaru", "Kotoyuki"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Enho", "Kagayaki"],
+        "winner": "Kagayaki"
+      },
+      {
+        "fighters": ["Tochiozan", "Yago"],
+        "winner": "Yago"
+      },
+      {
+        "fighters": ["Kotoeko", "Kaisei"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Shohozan", "Takagenji"],
+        "winner": "Shohozan"
+      },
+      {
+        "fighters": ["Nishikigi", "Okinoumi"],
+        "winner": "Okinoumi"
+      },
+      {
+        "fighters": ["Onosho", "Daishoho"],
+        "winner": "Onosho"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Tomokaze"],
+        "winner": "Chiyotairyu"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Shimanoumi"],
+        "winner": "Shimanoumi"
+      },
+      {
+        "fighters": ["Myogiryu", "Ichinojo"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Meisei", "Takarafuji"],
+        "winner": "Meisei"
+      },
+      {
+        "fighters": ["Abi", "Hokutofuji"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Ryuden", "Tamawashi"],
+        "winner": "Ryuden"
+      },
+      {
+        "fighters": ["Mitakeumi", "Asanoyama"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Aoiyama", "Takayasu"],
+        "winner": "Takayasu"
+      },
+      {
+        "fighters": ["Goeido", "Endo"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Daieisho", "Hakuho"],
+        "winner": "Hakuho"
+      },
+      {
+        "fighters": ["Kakuryu", "Shodai"],
+        "winner": "Kakuryu"
+      }
+    ],
+    "day8": [
+      {
+        "fighters": ["Kotoyuki", "Azumaryu"],
+        "winner": "Azumaryu"
+      },
+      {
+        "fighters": ["Chiyomaru", "Enho"],
+        "winner": "Chiyomaru"
+      },
+      {
+        "fighters": ["Yago", "Sadanoumi"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Terutsuyoshi", "Kagayaki"],
+        "winner": "Kagayaki"
+      },
+      {
+        "fighters": ["Kaisei", "Nishikigi"],
+        "winner": "Nishikigi"
+      },
+      {
+        "fighters": ["Kotoeko", "Tochiozan"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Toyonoshima", "Takagenji"],
+        "winner": "Toyonoshima"
+      },
+      {
+        "fighters": ["Myogiryu", "Daishoho"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Shohozan"],
+        "winner": "Chiyotairyu"
+      },
+      {
+        "fighters": ["Okinoumi", "Shimanoumi"],
+        "winner": "Shimanoumi"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Onosho", "Takarafuji"],
+        "winner": "Onosho"
+      },
+      {
+        "fighters": ["Asanoyama", "Endo"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Aoiyama", "Hokutofuji"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Abi", "Ryuden"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Mitakeumi", "Ichinojo"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Goeido", "Meisei"],
+        "winner": "Meisei"
+      },
+      {
+        "fighters": ["Tamawashi", "Takayasu"],
+        "winner": "Takayasu"
+      },
+      {
+        "fighters": ["Kakuryu", "Daieisho"],
+        "winner": "Kakuryu"
+      },
+      {
+        "fighters": ["Shodai", "Hakuho"],
+        "winner": "Hakuho"
+      }
+    ],
+    "day9": [
+      {
+        "fighters": ["Kaisei", "Sadanoumi"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Tochiozan", "Terutsuyoshi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Kotoyuki", "Nishikigi"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Enho", "Takagenji"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Kotoeko", "Yago"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Chiyomaru", "Daishoho"],
+        "winner": "Daishoho"
+      },
+      {
+        "fighters": ["Kagayaki", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Myogiryu", "Toyonoshima"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Shohozan", "Shimanoumi"],
+        "winner": "Shimanoumi"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Okinoumi"],
+        "winner": "Chiyotairyu"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Onosho"],
+        "winner": "Kotoshogiku"
+      },
+      {
+        "fighters": ["Takarafuji", "Daieisho"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Aoiyama", "Endo"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Asanoyama", "Ryuden"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Hokutofuji", "Tamawashi"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Mitakeumi", "Abi"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Shodai", "Takayasu"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Ichinojo", "Hakuho"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Kakuryu", "Meisei"],
+        "winner": "Kakuryu"
+      }
+    ],
+    "day10": [
+      {
+        "fighters": ["Chiyomaru", "Terutsuyoshi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Tochiozan", "Kaisei"],
+        "winner": "Tochiozan"
+      },
+      {
+        "fighters": ["Toyonoshima", "Kagayaki"],
+        "winner": "Toyonoshima"
+      },
+      {
+        "fighters": ["Enho", "Nishikigi"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Kotoyuki", "Daishoho"],
+        "winner": "Daishoho"
+      },
+      {
+        "fighters": ["Onosho", "Sadanoumi"],
+        "winner": "Onosho"
+      },
+      {
+        "fighters": ["Myogiryu", "Shohozan"],
+        "winner": "Myogiryu"
+      },
+      {
+        "fighters": ["Takagenji", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Kotoeko"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Yago", "Shimanoumi"],
+        "winner": "Shimanoumi"
+      },
+      {
+        "fighters": ["Okinoumi", "Takarafuji"],
+        "winner": "Takarafuji"
+      },
+      {
+        "fighters": ["Aoiyama", "Shodai"],
+        "winner": "Aoiyama"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Endo"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Abi", "Asanoyama"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Hokutofuji", "Ryuden"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Mitakeumi", "Daieisho"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Meisei", "Takayasu"],
+        "winner": "Takayasu"
+      },
+      {
+        "fighters": ["Kakuryu", "Ichinojo"],
+        "winner": "Kakuryu"
+      },
+      {
+        "fighters": ["Tamawashi", "Hakuho"],
+        "winner": "Hakuho"
+      }
+    ],
+    "day11": [
+      {
+        "fighters": ["Enho", "Sadanoumi"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Yago", "Kagayaki"],
+        "winner": "Kagayaki"
+      },
+      {
+        "fighters": ["Tochiozan", "Toyonoshima"],
+        "winner": "Tochiozan"
+      },
+      {
+        "fighters": ["Terutsuyoshi", "Nishikigi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Chiyomaru", "Takagenji"],
+        "winner": "Chiyomaru"
+      },
+      {
+        "fighters": ["Onosho", "Kaisei"],
+        "winner": "Onosho"
+      },
+      {
+        "fighters": ["Kotoyuki", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Myogiryu", "Okinoumi"],
+        "winner": "Okinoumi"
+      },
+      {
+        "fighters": ["Kotoeko", "Shimanoumi"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Daishoho"],
+        "winner": "Daishoho"
+      },
+      {
+        "fighters": ["Shohozan", "Takarafuji"],
+        "winner": "Takarafuji"
+      },
+      {
+        "fighters": ["Shodai", "Daieisho"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Asanoyama", "Hokutofuji"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Endo", "Ryuden"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Abi", "Aoiyama"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Ichinojo", "Tamawashi"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Mitakeumi", "Meisei"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Takayasu", "Hakuho"],
+        "winner": "Hakuho"
+      },
+      {
+        "fighters": ["Kakuryu", "Kotoshogiku"],
+        "winner": "Kakuryu"
+      }
+    ],
+    "day12": [
+      {
+        "fighters": ["Kotoyuki", "Kagayaki"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Yago", "Nishikigi"],
+        "winner": "Nishikigi"
+      },
+      {
+        "fighters": ["Kotoeko", "Sadanoumi"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Shohozan", "Enho"],
+        "winner": "Shohozan"
+      },
+      {
+        "fighters": ["Onosho", "Toyonoshima"],
+        "winner": "Toyonoshima"
+      },
+      {
+        "fighters": ["Chiyomaru", "Okinoumi"],
+        "winner": "Okinoumi"
+      },
+      {
+        "fighters": ["Myogiryu", "Terutsuyoshi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Takagenji", "Shimanoumi"],
+        "winner": "Shimanoumi"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Tochiozan"],
+        "winner": "Kotoshogiku"
+      },
+      {
+        "fighters": ["Daishoho", "Takarafuji"],
+        "winner": "Takarafuji"
+      },
+      {
+        "fighters": ["Tomokaze", "Ichinojo"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Asanoyama", "Daieisho"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Shodai", "Hokutofuji"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Abi", "Endo"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Aoiyama", "Ryuden"],
+        "winner": "Aoiyama"
+      },
+      {
+        "fighters": ["Meisei", "Tamawashi"],
+        "winner": "Tamawashi"
+      },
+      {
+        "fighters": ["Kakuryu", "Chiyotairyu"],
+        "winner": "Kakuryu"
+      },
+      {
+        "fighters": ["Mitakeumi", "Hakuho"],
+        "winner": "Hakuho"
+      }
+    ],
+    "day13": [
+      {
+        "fighters": ["Tochiozan", "Nishikigi"],
+        "winner": "Nishikigi"
+      },
+      {
+        "fighters": ["Sadanoumi", "Takagenji"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Kotoeko", "Enho"],
+        "winner": "Kotoeko"
+      },
+      {
+        "fighters": ["Yago", "Daishoho"],
+        "winner": "Daishoho"
+      },
+      {
+        "fighters": ["Shohozan", "Toyonoshima"],
+        "winner": "Toyonoshima"
+      },
+      {
+        "fighters": ["Kotoyuki", "Okinoumi"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Onosho", "Terutsuyoshi"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Kagayaki"],
+        "winner": "Chiyotairyu"
+      },
+      {
+        "fighters": ["Meisei", "Chiyomaru"],
+        "winner": "Meisei"
+      },
+      {
+        "fighters": ["Shimanoumi", "Endo"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Ichinojo", "Hokutofuji"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Asanoyama", "Aoiyama"],
+        "winner": "Aoiyama"
+      },
+      {
+        "fighters": ["Shodai", "Ryuden"],
+        "winner": "Ryuden"
+      },
+      {
+        "fighters": ["Abi", "Daieisho"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Takarafuji", "Tamawashi"],
+        "winner": "Tamawashi"
+      },
+      {
+        "fighters": ["Mitakeumi", "Kotoshogiku"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Myogiryu", "Hakuho"],
+        "winner": "Hakuho"
+      },
+      {
+        "fighters": ["Kakuryu", "Tomokaze"],
+        "winner": "Tomokaze"
+      }
+    ],
+    "day14": [
+      {
+        "fighters": ["Toyonoshima", "Nishikigi"],
+        "winner": "Toyonoshima"
+      },
+      {
+        "fighters": ["Yago", "Takagenji"],
+        "winner": "Yago"
+      },
+      {
+        "fighters": ["Shohozan", "Chiyomaru"],
+        "winner": "Shohozan"
+      },
+      {
+        "fighters": ["Sadanoumi", "Daishoho"],
+        "winner": "Sadanoumi"
+      },
+      {
+        "fighters": ["Onosho", "Kagayaki"],
+        "winner": "Kagayaki"
+      },
+      {
+        "fighters": ["Tochiozan", "Okinoumi"],
+        "winner": "Okinoumi"
+      },
+      {
+        "fighters": ["Myogiryu", "Enho"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Kotoeko", "Tomokaze"],
+        "winner": "Tomokaze"
+      },
+      {
+        "fighters": ["Meisei", "Kotoyuki"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Aoiyama", "Shimanoumi"],
+        "winner": "Shimanoumi"
+      },
+      {
+        "fighters": ["Takarafuji", "Endo"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Asanoyama", "Shodai"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Terutsuyoshi", "Hokutofuji"],
+        "winner": "Hokutofuji"
+      },
+      {
+        "fighters": ["Abi", "Ichinojo"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Daieisho", "Ryuden"],
+        "winner": "Daieisho"
+      },
+      {
+        "fighters": ["Chiyotairyu", "Tamawashi"],
+        "winner": "Tamawashi"
+      },
+      {
+        "fighters": ["Kakuryu", "Mitakeumi"],
+        "winner": "Kakuryu"
+      },
+      {
+        "fighters": ["Kotoshogiku", "Hakuho"],
+        "winner": "Kotoshogiku"
+      }
+    ],
+    "day15": [
+      {
+        "fighters": ["Chiyomaru", "Nishikigi"],
+        "winner": "Nishikigi"
+      },
+      {
+        "fighters": ["Enho", "Daishoho"],
+        "winner": "Enho"
+      },
+      {
+        "fighters": ["Shohozan", "Tochiozan"],
+        "winner": "Tochiozan"
+      },
+      {
+        "fighters": ["Kagayaki", "Okinoumi"],
+        "winner": "Okinoumi"
+      },
+      {
+        "fighters": ["Terutsuyoshi", "Tomokaze"],
+        "winner": "Terutsuyoshi"
+      },
+      {
+        "fighters": ["Myogiryu", "Kotoyuki"],
+        "winner": "Kotoyuki"
+      },
+      {
+        "fighters": ["Yago", "Takarafuji"],
+        "winner": "Takarafuji"
+      },
+      {
+        "fighters": ["Kotoeko", "Ichinojo"],
+        "winner": "Ichinojo"
+      },
+      {
+        "fighters": ["Shodai", "Takagenji"],
+        "winner": "Shodai"
+      },
+      {
+        "fighters": ["Aoiyama", "Daieisho"],
+        "winner": "Aoiyama"
+      },
+      {
+        "fighters": ["Endo", "Hokutofuji"],
+        "winner": "Endo"
+      },
+      {
+        "fighters": ["Asanoyama", "Sadanoumi"],
+        "winner": "Asanoyama"
+      },
+      {
+        "fighters": ["Meisei", "Ryuden"],
+        "winner": "Meisei"
+      },
+      {
+        "fighters": ["Onosho", "Tamawashi"],
+        "winner": "Tamawashi"
+      },
+      {
+        "fighters": ["Abi", "Kotoshogiku"],
+        "winner": "Abi"
+      },
+      {
+        "fighters": ["Mitakeumi", "Shimanoumi"],
+        "winner": "Mitakeumi"
+      },
+      {
+        "fighters": ["Kakuryu", "Hakuho"],
+        "winner": "Kakuryu"
+      }
+    ]
+  }
+}

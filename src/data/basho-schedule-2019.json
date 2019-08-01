@@ -1,66 +1,78 @@
 {
   "2019": {
-    "New Year": {
+    "Hatsu": {
       "start": "January 13",
       "end": "January 27",
-      "location": "Tokyo"
+      "location": "Tokyo",
+      "year": "2019"
     },
-    "Spring": {
+    "Haru": {
       "start": "March 10",
       "end": "March 24",
-      "location": "Osaka"
+      "location": "Osaka",
+      "year": "2019"
     },
-    "Summer": {
+    "Natsu": {
       "start": "May 12",
       "end": "May 26",
-      "location": "Tokyo"
+      "location": "Tokyo",
+      "year": "2019"
     },
     "Nagoya": {
       "start": "July 7",
       "end": "July 21",
-      "location": "Nagoya"
+      "location": "Nagoya",
+      "year": "2019"
     },
-    "Autumn": {
+    "Aki": {
       "start": "September 8",
       "end": "September 22",
-      "location": "Tokyo"
+      "location": "Tokyo",
+      "year": "2019"
     },
     "Kyushu": {
       "start": "November 10",
       "end": "November 24",
-      "location": "Fukuoka"
+      "location": "Fukuoka",
+      "year": "2019"
     }
   },
   "2020": {
-    "New Year": {
-      "start": "Early January",
-      "end": "Late January",
-      "location": "Tokyo"
+    "Hatsu": {
+      "start": "January 12",
+      "end": "January 26",
+      "location": "Tokyo",
+      "year": "2020"
     },
-    "Spring": {
-      "start": "Early March",
-      "end": "Late March",
-      "location": "Osaka"
+    "Haru": {
+      "start": "March 8",
+      "end": "March 22",
+      "location": "Osaka",
+      "year": "2020"
     },
-    "Summer": {
-      "start": "Early May",
-      "end": "Late May",
-      "location": "Tokyo"
+    "Natsu": {
+      "start": "May 10",
+      "end": "May 24",
+      "location": "Tokyo",
+      "year": "2020"
     },
     "Nagoya": {
-      "start": "Early July",
-      "end": "Late July",
-      "location": "Nagoya"
+      "start": "July 5",
+      "end": "July 19",
+      "location": "Nagoya",
+      "year": "2020"
     },
-    "Autumn": {
-      "start": "Early September",
-      "end": "Late September",
-      "location": "Tokyo"
+    "Aki": {
+      "start": "September 13",
+      "end": "September 27",
+      "location": "Tokyo",
+      "year": "2020"
     },
     "Kyushu": {
-      "start": "Early November",
-      "end": "Late November",
-      "location": "Fukuoka"
+      "start": "November 8",
+      "end": "November 22",
+      "location": "Fukuoka",
+      "year": "2020"
     }
   }
 }

@@ -5,6 +5,7 @@ import { PointsContext } from './context/PointsContext';
 import { SelectTeamContext } from './context/SelectedTeamContext';
 import './css/matches.scss';
 import SelectTeam from './css/SelectTeam';
+import ViewTeam from './ViewTeam';
 
 const addArray = arr => {
   if (arr.length > 0) {
@@ -28,10 +29,9 @@ function FantasyGameContainer({ basho }) {
 
   const clearTeam = () => {
     dispatch({ type: 'CLEAR_TEAM'});
-    pointsDispatch({ type: 'REMOVE_POINTS' })
+    pointsDispatch({ type: 'REMOVE_POINTS' });
   }
   
-
   return (
     <div className="fantasygame-container">
       <h1>{basho.name || ''} - {basho.date || ''}</h1>
@@ -45,21 +45,7 @@ function FantasyGameContainer({ basho }) {
       </div>
       <div className="fantasy">
         {teamAvailable && !selectedTeam.includes("") ? (
-          <>
-            <p>
-              Fantasy Team: <br />
-              <span className="fantasy-team">
-                {selectedTeam.join(', ')}
-              </span>
-            </p>
-            <p>
-              Total Points: <br />
-              <span className="fantasy-points">
-                {fantasyPoints}
-              </span>
-            </p>
-            <button className="button" onClick={clearTeam}>Clear Team</button>
-          </>
+          <ViewTeam selectedTeam={selectedTeam} fantasyPoints={fantasyPoints} clearTeam={clearTeam} />
         ) : <SelectTeam />}
       </div>
       {teamAvailable && Object.keys(basho.matches).map(day => (

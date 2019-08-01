@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Natsu from './data/natsu-may-2019.json';
 import Nagoya from './data/nagoya-july-2019.json';
+import Aki from './data/aki-september-2019.json';
 import './css/matches.scss';
 import FantasyGameContainer from './FantasyGame';
 import ShowBashoSchedule from './ShowBashoSchedule';
@@ -21,7 +23,13 @@ function App() {
     switch(bashoName) {
       case 'Nagoya':
         setCurrentBasho(Nagoya);
-        return;
+        break;
+      case 'Aki':
+        setCurrentBasho(Aki);
+        break;
+      case 'Natsu':
+        setCurrentBasho(Natsu);
+        break;
       default:
         setCurrentBasho('');
         return;
@@ -53,15 +61,22 @@ function App() {
   convertJapanTime();
 
   return (
-    <div className="App">
-      <div>
-        <ShowBashoSchedule selectBasho={pickBasho} title="Old Bashos" bashoType="old" currentYear={currentYear} />
+    <div className="App" style={{ display: 'grid' , gridTemplate: 'auto/1fr 3fr 1fr', justifyContent: 'center' }}>
+      <div style={{ textAlign: 'left', justifySelf: 'end' }}>
         <ShowBashoSchedule selectBasho={pickBasho} title="Upcoming Bashos" bashoType="upcoming" currentYear={currentYear} />
+        <ShowBashoSchedule selectBasho={pickBasho} title="Old Bashos" bashoType="old" currentYear={currentYear} />
       </div>
-      {currentBasho && (
-        <FantasyGameContainer basho={currentBasho} />
-      )}
-      {!currentBasho && <p>Not Ready</p>}
+      <div>
+        {currentBasho && (
+          <FantasyGameContainer basho={currentBasho} />
+        )}
+        {!currentBasho && <p>Not Ready</p>}
+      </div>
+      <div>
+        <button>
+          Add Basho
+        </button>
+      </div>
     </div>
   );
 }
