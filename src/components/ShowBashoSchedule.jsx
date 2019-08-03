@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import BashoSchedule from '../data/basho-schedule-2019.json';
+import moment from 'moment';
 
 const ShowBashoSchedule = ({
   title,
@@ -8,7 +9,7 @@ const ShowBashoSchedule = ({
   selectBasho,
 }) => {
 
-  const [isVisible, setIsVisible] = useState(bashoType === 'old' ? false : true);
+  const [isVisible, setIsVisible] = useState(true);
 
   const bashoSchedule = () => {
     return Object.keys(BashoSchedule[currentYear]);
@@ -21,13 +22,21 @@ const ShowBashoSchedule = ({
 
   const allBasho = type => {
     return bashoSchedule().reduce((acc, basho) => {
-      const bashoDate = BashoSchedule[currentYear][basho].start;
-      const bashoMonth = bashoDate.split(' ')[0];
-      const bashoDay = bashoDate.split(' ')[1];
-      if (type === 'upcoming' && new Date(`${currentYear}/${bashoMonth}/${bashoDay}`) > new Date()) {
+      const BashoStart = moment(BashoSchedule[currentYear][basho].timestamp.start)
+      const BashoEnd = moment(BashoSchedule[currentYear][basho].timestamp.end)
+      const today = moment();
+      const isBetween = moment(today).isBetween(BashoStart, BashoEnd)
+      const isStartBefore = moment(today).isSameOrBefore(BashoStart);
+      const isStartAfter = moment(today).isSameOrAfter(BashoStart);
+      const isEndBefore = moment(today).isSameOrBefore(BashoEnd);
+      const isEndAfter = moment(today).isSameOrAfter(BashoEnd);
+      if (type === 'upcoming' && isStartBefore && isEndBefore) {
         acc.push(basho);
       }
-      if (type === 'old' && new Date(`${currentYear}/${bashoMonth}/${bashoDay}`) < new Date()) {
+      if (type === 'current' && isBetween) {
+        acc.push(basho);
+      }
+      if (type === 'old' && isStartAfter && isEndAfter) {
         acc.push(basho);
       }
       return acc;

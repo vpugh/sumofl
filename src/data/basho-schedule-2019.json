@@ -1,40 +1,74 @@
 {
   "2019": {
+    "Test": {
+      "start": "January 1",
+      "end": "December 28",
+      "location": "More Test",
+      "year": "2019",
+      "timestamp": {
+        "start": "2019-01-02T01:00:00+0000",
+        "end": "2019-12-28T01:00:00+0000"
+      }
+    },
     "Hatsu": {
       "start": "January 13",
       "end": "January 27",
       "location": "Tokyo",
-      "year": "2019"
+      "year": "2019",
+      "timestamp": {
+        "start": "2019-01-14T01:00:00+0000",
+        "end": "2019-01-28T00:00:00+0000"
+      }
     },
     "Haru": {
       "start": "March 10",
       "end": "March 24",
       "location": "Osaka",
-      "year": "2019"
+      "year": "2019",
+      "timestamp": {
+        "start": "2019-03-11T01:00:00+0000",
+        "end": "2019-03-25T00:00:00+0000"
+      }
     },
     "Natsu": {
       "start": "May 12",
       "end": "May 26",
       "location": "Tokyo",
-      "year": "2019"
+      "year": "2019",
+      "timestamp": {
+        "start": "2019-05-13T01:00:00+0000",
+        "end": "2019-05-27T00:00:00+0000"
+      }
     },
     "Nagoya": {
       "start": "July 7",
       "end": "July 21",
       "location": "Nagoya",
-      "year": "2019"
+      "year": "2019",
+      "timestamp": {
+        "start": "2019-07-08T01:00:00+0000",
+        "end": "2019-07-22T00:00:00+0000"
+      }
     },
     "Aki": {
       "start": "September 8",
       "end": "September 22",
       "location": "Tokyo",
-      "year": "2019"
+      "year": "2019",
+      "timestamp": {
+        "start": "2019-09-09T00:00:00+0000",
+        "end": "2019-09-23T00:00:00+0000"
+      }
     },
     "Kyushu": {
       "start": "November 10",
       "end": "November 24",
       "location": "Fukuoka",
-      "year": "2019"
+      "year": "2019",
+      "timestamp": {
+        "start": "2019-11-11T01:00:00+0000",
+        "end": "2019-11-25T00:00:00+0000"
+      }
     }
   },
   "2020": {
