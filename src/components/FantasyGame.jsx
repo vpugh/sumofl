@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import '../App.css';
 import MatchDays from './MatchDays';
 import { PointsContext } from '../context/PointsContext';
@@ -17,42 +17,30 @@ function FantasyGameContainer({ basho }) {
   const { points, pointsDispatch } = useContext(PointsContext);
   const { selectedTeam, dispatch } = useContext(SelectTeamContext);
   const fantasyPoints = addArray(points);
-  const teamAvailable = selectedTeam.length > 0;
-
-  // const convertJapanTime = () => {
-  //   const offset = +9;
-  //   const d = new Date();
-  //   const utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-  //   const nd = new Date(utc + (3600000*offset));
-  //   // console.log(nd);
-  // }
+  let teamAvailable;
+  if (selectedTeam && selectedTeam[basho.date] !== undefined) {
+    teamAvailable = selectedTeam[basho.date].length > 0;
+  }
 
   const clearTeam = () => {
-    dispatch({ type: 'CLEAR_TEAM'});
+    dispatch({ type: 'CLEAR_TEAM', basho: basho.date });
     pointsDispatch({ type: 'REMOVE_POINTS' });
   }
   
   return (
-    <div className="fantasygame-container">
-      <h1>{basho.name || ''} - {basho.date || ''}</h1>
+    <>
+      <h1 style={{ textAlign: 'center' }}>{basho.name || ''} - {basho.date || ''}</h1>
       <div className="container">
-      <div style={{ maxWidth: '70%', margin: '0 auto' }}>
-        <div className="colorkey-container">
-          <span className="selected-winner color-key">Selected Winner</span>
-          <span className="selected-loss color-key">Selected Loss</span>
-          <span className="match-winner color-key">Non-Selected Winner</span>
+        <div className="fantasy">
+          {teamAvailable && !selectedTeam[basho.date].includes("") ? (
+            <ViewTeam selectedTeam={selectedTeam[basho.date]} fantasyPoints={fantasyPoints} clearTeam={clearTeam} />
+          ) : <SelectTeam basho={basho} />}
         </div>
+        {teamAvailable && Object.keys(basho.matches).map(day => (
+          <MatchDays key={day} day={day} basho={basho} matches={basho.matches} />
+        ))}
       </div>
-      <div className="fantasy">
-        {teamAvailable && !selectedTeam.includes("") ? (
-          <ViewTeam selectedTeam={selectedTeam} fantasyPoints={fantasyPoints} clearTeam={clearTeam} />
-        ) : <SelectTeam />}
-      </div>
-      {teamAvailable && Object.keys(basho.matches).map(day => (
-        <MatchDays key={day} day={day} matches={basho.matches} />
-      ))}
-      </div>
-    </div>
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { SelectTeamContext } from '../context/SelectedTeamContext';
 
-const SelectTeam = () => {
+const SelectTeam = ({ basho }) => {
   const { dispatch } = useContext(SelectTeamContext);
   const [option1, setOption1] = useState('');
   const [option2, setOption2] = useState('');
@@ -11,7 +11,7 @@ const SelectTeam = () => {
 
   const handleSubmission = e => {
     e.preventDefault();
-    dispatch({ type: 'ADD_TEAM', selectedTeam: [option1, option2, option3, option4, option5 ] })
+    dispatch({ type: 'ADD_TEAM', basho, selectedTeam: [option1, option2, option3, option4, option5 ] })
   }
   const setState = e => {
     const { id, value } = e.currentTarget;
