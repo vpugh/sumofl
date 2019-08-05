@@ -1,5 +1,4 @@
-import React, { useState, useContext, useEffect, useCallback } from 'react';
-import { PointsContext } from '../context/PointsContext';
+import React, { useState, useContext } from 'react';
 import { SelectTeamContext } from '../context/SelectedTeamContext';
 
 const generateReadableDay = day => {
@@ -10,7 +9,6 @@ const generateReadableDay = day => {
 
 const MatchDays = ({ day, basho, matches }) => {
   const [matchOpen, setMatchOpen] = useState(false);
-  const { pointsDispatch } = useContext(PointsContext);
   const { selectedTeam } = useContext(SelectTeamContext);
   
   const handleVisibility = () => {
@@ -43,23 +41,6 @@ const MatchDays = ({ day, basho, matches }) => {
     return fantasyWinners.length;
   };
 
-  const returnWinners = useCallback(
-    () => {
-      const winnerMatches = matches[day].reduce((acc, match) => {
-        if (selectedTeam[basho.date].includes(match.winner)) {
-          acc.push(match.winner);
-        }
-        return acc;
-      }, []);
-      pointsDispatch({ type: 'ADD_POINTS', points: winnerMatches.length })
-    },
-    [matches, day, pointsDispatch, selectedTeam[basho.date]],
-  );
-
-  useEffect(() => {
-    returnWinners();
-  }, [returnWinners]);
-
   return (
     <div className="match-container">
       <div role="button" onClick={handleVisibility} style={{ cursor: 'pointer' }}>
@@ -73,16 +54,16 @@ const MatchDays = ({ day, basho, matches }) => {
         </h3>
       </div>
       {matchOpen && (
-      <div className="match">
-        <div style={{ textAlign: 'center' }}>
-        {matches[day].map((d, index) => (
-          <p key={index}>
-            {highlightMatchWinner(d.fighters[0], d.winner)} vs{" "}
-            {highlightMatchWinner(d.fighters[1], d.winner)}
-          </p>
-        ))}
+        <div className="match">
+          <div style={{ textAlign: 'center' }}>
+          {matches[day].map((d, index) => (
+            <p key={index}>
+              {highlightMatchWinner(d.fighters[0], d.winner)} vs{" "}
+              {highlightMatchWinner(d.fighters[1], d.winner)}
+            </p>
+          ))}
+          </div>
         </div>
-      </div>
       )}
     </div>
   );

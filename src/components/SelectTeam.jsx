@@ -35,8 +35,9 @@ const SelectTeam = ({ basho }) => {
 
   const isButtonEnabled = option1.length > 0 && option2.length > 0 && option3.length > 0 && option4.length > 0 && option5.length > 0;
   return (
-    <form onSubmit={handleSubmission} name="selectTeam" className="selection-container">
+    <form onSubmit={handleSubmission} name="selectTeam" className="selection-container" style={{ textAlign: 'center' }}>
       <h3>Select Your Team</h3>
+      <br />
       <select name="yokozuna-ozeki" id="option1" onChange={setState} defaultValue={option1}>
         <option value="" disabled>Select Yokozuna/Ozeki</option>
         <option value="Kakuryu">Kakuryu - Yokozuna</option>
