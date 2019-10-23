@@ -1,5 +1,7 @@
-import React, { useState, useContext } from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useState, useContext, useEffect } from 'react';
 import { SelectTeamContext } from '../context/SelectedTeamContext';
+import { PointsContext } from '../context/PointsContext';
 
 const generateReadableDay = day => {
   const dayName = day.match(/.{3}/g);
@@ -7,9 +9,10 @@ const generateReadableDay = day => {
   return `${dayName} ${number}`;
 }
 
-const MatchDays = ({ day, basho, matches }) => {
+const MatchDays = ({ day, basho }) => {
   const [matchOpen, setMatchOpen] = useState(false);
   const { selectedTeam } = useContext(SelectTeamContext);
+  const { pointsDispatch } = useContext(PointsContext);
   
   const handleVisibility = () => {
     setMatchOpen(!matchOpen);
@@ -31,7 +34,7 @@ const MatchDays = ({ day, basho, matches }) => {
   };
 
   const dailyFantasyPoints = () => {
-    const currentDay = matches[day];
+    const currentDay = basho.matches[day];
     const fantasyWinners = currentDay.reduce((acc, match) => {
       if (selectedTeam[basho.date].includes(match.winner)) {
         acc.push(match.winner);
@@ -40,6 +43,10 @@ const MatchDays = ({ day, basho, matches }) => {
     }, []);
     return fantasyWinners.length;
   };
+
+  useEffect(() => {
+    pointsDispatch({ type: 'COMBINE_POINTS', points: dailyFantasyPoints(), basho: basho.name })
+  }, []);
 
   return (
     <div className="match-container">
@@ -56,7 +63,7 @@ const MatchDays = ({ day, basho, matches }) => {
       {matchOpen && (
         <div className="match">
           <div style={{ textAlign: 'center' }}>
-          {matches[day].map((d, index) => (
+          {basho.matches[day].map((d, index) => (
             <p key={index}>
               {highlightMatchWinner(d.fighters[0], d.winner)} vs{" "}
               {highlightMatchWinner(d.fighters[1], d.winner)}
